@@ -57,6 +57,7 @@ class HealthAssistant:
 
 # ---------------- DEMO ----------------
 if __name__ == "__main__":
-    assistant = HealthAssistant(api_key="AIzaSyAJQ9sxky15sn_ETAI3tV-oyH1hFrT9bVw")
+    assistant = HealthAssistant(api_key="")
     advice = assistant.generate_prevention_advice(1)
     print(advice)
+
